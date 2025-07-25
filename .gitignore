@@ -1,0 +1,29 @@
+# Ignore common system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Ignore secrets or credentials (if any)
+.env
+*.key
+*.pem
+
+# Ignore backup or archive files
+*.tar
+*.gz
+*.zip
+
+# Ignore compiled binaries or system outputs
+*.out
+*.o
+
+# Ignore editor/project files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
