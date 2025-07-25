@@ -98,7 +98,7 @@ step_echo 1 "If your system is registered by using an account with Simple Conten
 
 
 # Step 2
-step_echo 2 "[object Object]"
+step_echo 2 "If your system is registered by using an account with SCA disabled, verify that the Red Hat Linux Server subscription is attached, the product name is Server, and the status is Subscribed."
     # If your system is registered by using an account with SCA disabled, verify that the Red Hat Linux Server subscription is attached, the product name is Server, and the status is Subscribed.
     info_echo "Executing: subscription-manager list --installed"
     subscription-manager list --installed || { error_echo "Command failed: subscription-manager list --installed"; exit 1; }
